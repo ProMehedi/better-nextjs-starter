@@ -18,10 +18,11 @@ export default antfu({
     semi: false,
     quotes: 'single'
   },
-  ignores: ['**/migrations/*', '*.md', '.next/**', 'out/**', 'build/**', 'next-env.d.ts', 'components/ui/**']
+  ignores: ['**/migrations/*', '*.md', '.next/**', 'out/**', 'build/**', 'next-env.d.ts', 'src/components/ui/**']
 }, {
   rules: {
     'no-console': ['warn'],
+    'style/eol-last': 'off',
     'style/brace-style': ['warn', '1tbs'],
     'style/comma-dangle': ['warn', 'never'],
     'antfu/no-top-level-await': ['off'],
