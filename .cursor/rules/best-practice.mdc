@@ -1,0 +1,8 @@
+---
+alwaysApply: true
+---
+- Do not create unnecessary .md files or examples files until it's requested by the user.
+- Always use the latest version of the libraries and tools.
+- Always use the clean code practices.
+- Always use the best practices for the code.
+- Always use the best practices and patterns for the UI/UX.

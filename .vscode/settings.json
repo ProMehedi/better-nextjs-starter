@@ -4,15 +4,19 @@
     "**/.git": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "tsconfig.tsbuildinfo": true,
+    "postcss.config.*": true,
+    "**/.next": true,
+    "**/.crossnote": true
     // "**/.husky": true
   },
   "search.exclude": {
+    "**/.next": true,
     "**/.git": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true,
-    "**/.husky": true,
     "**/migrations": true
   },
   // Disable the default formatter, use eslint instead
